@@ -1,0 +1,9 @@
+[submodule "lab/srs-lab"]
+	path = lab/srs-lab
+	url = git@github.com:AL-Man64/srs-lab.git
+[submodule "lab/web-lab"]
+	path = lab/web-lab
+	url = git@github.com:AL-Man64/web-lab.git
+[submodule "lab/ai-lab"]
+	path = lab/ai-lab
+	url = git@github.com:AL-Man64/ai-lab.git
