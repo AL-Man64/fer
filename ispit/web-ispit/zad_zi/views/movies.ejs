@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/head"); %>
+  <body>
+    <div class="kartica">
+      <h1>Movie List</h1>
+      <a href="/movies/add"><button>Add New Movie</button></a>
+      <% for (const movie of movies) { %>
+        <div class="movie">
+          <p><%= movie.title %> by <%= movie.director %></p>
+          <form action="/movies/delete" method="post">
+            <input type="hidden" name="title" value="<%= movie.title %>">
+            <input type="hidden" name="director" value="<%= movie.director %>">
+            <button type="submit">Delete</button>
+          </form>
+        </div>
+      <% } %>
+      <a href="/"><button>Home</button></a>
+    </div>
+  </body>
+</html>

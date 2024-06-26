@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/head"); %>
+  <body>
+    <div class="kartica">
+      <h1>Add Movie</h1>
+      <form class="movie-form" method="post">
+        <label for="title">Movie Title:</label>
+        <input class="text-input" type="text" name="title">
+        <label for="director">Director:</label>
+        <input class="text-input" type="text" name="director">
+        <button type="submit">Add Movie</button>
+      </form>
+      <a href="/movies"><button>Back to Movie List</button></a>
+    </div>
+  </body>
+</html>

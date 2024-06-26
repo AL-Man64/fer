@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  background-color: #f4f4f9;
+}
+
+.kartica {
+  background-color: #ffffff;
+  width: 50%;
+
+  padding: 1rem;
+}
+
+.kartica > * {
+  margin: 0.5rem;
+}
+
+h1 {
+  color: #4a90e2;
+}
+
+button {
+  background-color: #4a90e2;
+  color: #ffffff;
+
+  padding: 0.5rem 1rem;
+
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #357ab8;
+  cursor: pointer;
+}
+
+.movie {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movie-form {
+  padding: 0rem 0.5rem;
+}
+
+.movie-form > * {
+  display: block;
+  margin: 0.5rem;
+}
+
+.text-input {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+
+  padding: 0.5rem;
+
+  width: 100%;
+}
